@@ -16,3 +16,14 @@ Examples:
 - fibs(1); // [0]
 - fibs(2); // [0, 1]
 - fibs(8); // [0, 1, 1, 2, 3, 5, 8, 13]
+
+## Merge Sort
+
+- mergeSort(arr) returns a sorted array using recursive merge sort.
+
+Examples:
+
+- mergeSort([]); // []
+- mergeSort([1]); // [1]
+- mergeSort([3, 2, 1, 13, 8, 5, 0, 1]);
+  // [0, 1, 1, 2, 3, 5, 8, 13]

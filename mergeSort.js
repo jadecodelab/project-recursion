@@ -1,3 +1,4 @@
+// helper function to merge left part and right part
 const merge = function (left, right) {
   const result = [];
 
