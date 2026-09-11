@@ -1,0 +1,24 @@
+{
+  "name": "project-recursion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibs.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadecodelab/project-recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jadecodelab/project-recursion/issues"
+  },
+  "homepage": "https://github.com/jadecodelab/project-recursion#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
