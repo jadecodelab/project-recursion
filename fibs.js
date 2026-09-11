@@ -1,18 +1,13 @@
 const fibs = function (n) {
-  if (n === 0) return [];
+  const result = [];
 
-  if (n === 1) return [0];
-
-  const arr = [0, 1];
-
-  while (arr.length < n) {
-    const lastNum = arr[arr.length - 1];
-    const secondLast = arr[arr.length - 2];
-
-    arr.push(lastNum + secondLast);
+  for (let i = 0; i < n; i++) {
+    if (i === 0) result.push(0);
+    else if (i === 1) result.push(1);
+    else result.push(result[i - 1] + result[i - 2]);
   }
 
-  return arr;
+  return result;
 };
 
 module.exports = fibs;
